@@ -691,3 +691,7 @@ C:\Users\anbinh\Desktop\WebBanDT\WebBanDT\WebBanDT\obj\Debug\WebBanDT.csproj.Cor
 C:\Users\anbinh\Desktop\WebBanDT\WebBanDT\WebBanDT\obj\Debug\WebBanDT.csproj.CopyComplete
 C:\Users\anbinh\Desktop\WebBanDT\WebBanDT\WebBanDT\obj\Debug\WebBanDT.dll
 C:\Users\anbinh\Desktop\WebBanDT\WebBanDT\WebBanDT\obj\Debug\WebBanDT.pdb
+C:\Users\DELL 5568B\Desktop\GitHub\thuctapnhom\ttn\WebBanDT\WebBanDT\obj\Debug\WebBanDT.csprojAssemblyReference.cache
+C:\Users\DELL 5568B\Desktop\GitHub\thuctapnhom\ttn\WebBanDT\WebBanDT\obj\Debug\WebBanDT.csproj.CoreCompileInputs.cache
+C:\Users\DELL 5568B\Desktop\GitHub\thuctapnhom\ttn\WebBanDT\WebBanDT\obj\Debug\WebBanDT.dll
+C:\Users\DELL 5568B\Desktop\GitHub\thuctapnhom\ttn\WebBanDT\WebBanDT\obj\Debug\WebBanDT.pdb
