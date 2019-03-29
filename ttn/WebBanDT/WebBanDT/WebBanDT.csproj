@@ -154,28 +154,28 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="App_Start\Controllers\DefaultController.cs" />
-    <Compile Include="App_Start\Controllers\demoController.cs" />
-    <Compile Include="App_Start\Controllers\GiatangdanController.cs" />
-    <Compile Include="App_Start\Controllers\GioithieuController.cs" />
-    <Compile Include="App_Start\Controllers\LienHeController.cs" />
-    <Compile Include="App_Start\Controllers\Tren10trController.cs" />
-    <Compile Include="App_Start\Controllers\tu5den10trController.cs" />
+    <Compile Include="Controllers\DefaultController.cs" />
+    <Compile Include="Controllers\demoController.cs" />
+    <Compile Include="Controllers\GiatangdanController.cs" />
+    <Compile Include="Controllers\GioithieuController.cs" />
+    <Compile Include="Controllers\LienHeController.cs" />
+    <Compile Include="Controllers\Tren10trController.cs" />
+    <Compile Include="Controllers\tu5den10trController.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="App_Start\Controllers\ApplePhoneController.cs" />
-    <Compile Include="App_Start\Controllers\AsusPhoneController.cs" />
-    <Compile Include="App_Start\Controllers\CartController.cs" />
-    <Compile Include="App_Start\Controllers\CustomersController.cs" />
-    <Compile Include="App_Start\Controllers\HomeController.cs" />
-    <Compile Include="App_Start\Controllers\LoginsController.cs" />
-    <Compile Include="App_Start\Controllers\ManageController.cs" />
-    <Compile Include="App_Start\Controllers\ManuFacturersController.cs" />
-    <Compile Include="App_Start\Controllers\PhoneDuoi5trController.cs" />
-    <Compile Include="App_Start\Controllers\PhonesController.cs" />
-    <Compile Include="App_Start\Controllers\SamSungPhoneController.cs" />
-    <Compile Include="App_Start\Controllers\SonyPhoneController.cs" />
-    <Compile Include="App_Start\Controllers\XiaomiPhoneController.cs" />
+    <Compile Include="Controllers\ApplePhoneController.cs" />
+    <Compile Include="Controllers\AsusPhoneController.cs" />
+    <Compile Include="Controllers\CartController.cs" />
+    <Compile Include="Controllers\CustomersController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginsController.cs" />
+    <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ManuFacturersController.cs" />
+    <Compile Include="Controllers\PhoneDuoi5trController.cs" />
+    <Compile Include="Controllers\PhonesController.cs" />
+    <Compile Include="Controllers\SamSungPhoneController.cs" />
+    <Compile Include="Controllers\SonyPhoneController.cs" />
+    <Compile Include="Controllers\XiaomiPhoneController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
