@@ -9,11 +9,14 @@
 
 <h2>Index</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table class="table">
-    <tr>
+@using (Html.BeginForm("Index", "Home", FormMethod.Get))
+{
+    <p style="margin-top:20px;margin-left:800px">
+        @Html.TextBox("SearchString") <input type="submit" value="Tìm kiếm" />
+    </p>
+}
+    <table class="table table-bordered mytable " style="font-size: 13px;margin-top:20px">
+        <tr style="background-color:lightseagreen;color:white">
         <th>
             Hãng ĐT
         </th>
