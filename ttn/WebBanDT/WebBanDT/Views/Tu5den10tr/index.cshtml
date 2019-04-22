@@ -1,6 +1,4 @@
-﻿@using PagedList.Mvc
-@using PagedList
-@model IPagedList<WebBanDT.Models.Data.Phone>
+﻿@model IEnumerable<WebBanDT.Models.Tu5den10tr>
 
 @{
     ViewBag.Title = "Index";
@@ -9,31 +7,34 @@
 
 <h2>Index</h2>
 
-@using (Html.BeginForm("Index", "Home", FormMethod.Get))
-{
-    <p style="margin-top:20px;margin-left:800px">
-        @Html.TextBox("SearchString") <input type="submit" value="Tìm kiếm" />
-    </p>
-}
-    <table class="table table-bordered mytable " style="font-size: 13px;margin-top:20px">
-        <tr style="background-color:lightseagreen;color:white">
-        <th>
-            Hãng ĐT
-        </th>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
         <th>
             Tên ĐT
+            @*  @Html.DisplayNameFor(model => model.Name)*/*@
         </th>
         <th width="250px">
             Hình Ảnh
+            @*@Html.DisplayNameFor(model => model.Image)*@
         </th>
         <th>
-            Giá 
+            Hãng ĐT
+            @*@Html.DisplayNameFor(model => model.ManufacturerName)*@
+        </th>
+        <th>
+            Giá
+            @*@Html.DisplayNameFor(model => model.Price)*@
         </th>
         <th>
             Trạng Thái
+            @*@Html.DisplayNameFor(model => model.Status)*@
         </th>
         <th>
             Mô Tả
+            @*@Html.DisplayNameFor(model => model.Configuration)*@
         </th>
         <th></th>
     </tr>
@@ -42,13 +43,13 @@
     {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Manufacturer.Name)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
             <td>
                 <img src="~/imageTel/@Html.DisplayFor(modelItem => item.Image)" width="250px" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ManufacturerName)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Price)
@@ -67,7 +68,3 @@
 
 </table>
 
-@Html.PagedListPager(Model, pageTemp => Url.Action("Index", new { pageTemp = pageTemp }), new PagedListRenderOptions()
-{
-    LiElementClasses = new List<string> { "button", "item" }
-}).
