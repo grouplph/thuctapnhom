@@ -154,8 +154,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="Controllers\DefaultController.cs" />
-    <Compile Include="Controllers\demoController.cs" />
     <Compile Include="Controllers\GiatangdanController.cs" />
     <Compile Include="Controllers\GioithieuController.cs" />
     <Compile Include="Controllers\LienHeController.cs" />
@@ -309,14 +307,11 @@
     <Content Include="Views\AsusPhone\Index.cshtml" />
     <Content Include="Views\PhoneDuoi5tr\Index.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Default\Index.cshtml" />
-    <Content Include="Views\Default\Index1.cshtml" />
     <Content Include="Views\Tu5den10tr\index.cshtml" />
     <Content Include="Views\Tren10tr\Index.cshtml" />
     <Content Include="Views\Giatangdan\Index.cshtml" />
     <Content Include="Views\Gioithieu\Index.cshtml" />
     <Content Include="Views\Lienhe\Index.cshtml" />
-    <Content Include="Views\demo\index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
