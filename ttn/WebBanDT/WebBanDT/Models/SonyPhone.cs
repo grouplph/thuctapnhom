@@ -36,7 +36,7 @@ namespace WebBanDT.Models
         public List<SonyPhone> GetHome()
         {
             List<SonyPhone> strList = new List<SonyPhone>();
-            SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-4GNKPEV\SQLEXPRESS;Initial Catalog=BanDT;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-U7VSIPA\SQLEXPRESS01;Initial Catalog=BanDT;Integrated Security=True");
             //string sql = "select Phone.Id as 'maDT', Phone.Name as 'PhoneName',Phone.Image,Manufacturer.Name as 'NameNSX',Price,Status,configuration from " +
             //    "Phone,Manufacturer where Phone.Id = Manufacturer.Id";
             string sql1 = @"select Phone.Id as 'maDT', Phone.Name as 'PhoneName', Phone.[Image], Manufacturer.[Name] as 'NameNSX',Price, [Status], [configuration] from Phone,Manufacturer where Phone.Manufacturerid = Manufacturer.Id and Manufacturer.Name ='Sony'";
